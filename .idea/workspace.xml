@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b1b77cb5-3aad-417e-89b1-cf0e30f88da5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1rIzLR1wMECkEXcEALM86YcKzsT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/current" />
+      <recent name="$PROJECT_DIR$/matrix" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.kyu-6-1.js">
+    <configuration name="home-work-1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/matrix/home-work-1.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="kyu-6-1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/current/kyu-6-1.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/sort/script.js" working-dir="$PROJECT_DIR$/sort">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.kyu-6-1.js" />
+        <item itemvalue="Node.js.script.js" />
+        <item itemvalue="Node.js.home-work-1.js" />
+        <item itemvalue="Node.js.test.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1b77cb5-3aad-417e-89b1-cf0e30f88da5" name="Default Changelist" comment="" />
+      <created>1618678335400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618678335400</updated>
+      <workItem from="1618678336561" duration="9093000" />
+      <workItem from="1618762837170" duration="4189000" />
+      <workItem from="1619025369701" duration="286000" />
+      <workItem from="1619026417573" duration="4520000" />
+      <workItem from="1619366891730" duration="9347000" />
+      <workItem from="1619709768007" duration="17024000" />
+      <workItem from="1619728786809" duration="7283000" />
+      <workItem from="1619736434177" duration="139000" />
+      <workItem from="1619771681042" duration="204000" />
+      <workItem from="1619859079133" duration="89000" />
+      <workItem from="1620153059776" duration="6444000" />
+      <workItem from="1620208484237" duration="28893000" />
+      <workItem from="1620289503629" duration="4576000" />
+      <workItem from="1620487905754" duration="3416000" />
+      <workItem from="1620843880992" duration="18167000" />
+      <workItem from="1620891219139" duration="664000" />
+      <workItem from="1620901542467" duration="6661000" />
+      <workItem from="1621186109530" duration="18747000" />
+      <workItem from="1621211761053" duration="83000" />
+      <workItem from="1621250346110" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
