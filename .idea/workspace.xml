@@ -35,7 +35,7 @@
       <recent name="$PROJECT_DIR$/matrix" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.home-work-1.js">
+  <component name="RunManager" selected="Node.js.kyu-6-1.js">
     <configuration name="home-work-1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/matrix/home-work-1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -90,6 +90,8 @@
       <workItem from="1621250346110" duration="26000" />
       <workItem from="1621258255602" duration="5185000" />
       <workItem from="1621356405423" duration="9089000" />
+      <workItem from="1621371736940" duration="266000" />
+      <workItem from="1621543659667" duration="2850000" />
     </task>
     <servers />
   </component>
