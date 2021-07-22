@@ -395,3 +395,75 @@
 //     20,  8,  2, 11,  5,  7,  0, 10, 10,  8, 12,  3,
 //     5,  1,  7,  7,  5,  1,  4,  0,  4,  0,  0,  1
 // ]));
+
+// function countBy(x, n) {
+//     const z = [];
+//
+//     for (let i = x; i <= x * n; i ++) {
+//         if (i % x) continue;
+//         else z.push(i);
+//     }
+//
+//     return z;
+// }
+// console.log(countBy(2, 5));
+
+// const reverseWords = str => str.split(' ').reverse().join(' ');
+// console.log(reverseWords('The greatest victory is that which requires no battle'));
+
+// const makeUpperCase = str => str.toUpperCase();
+// console.log(makeUpperCase('hello'));
+
+// const digitize = n => n.toString().split('').reverse().map(n => +n);
+// console.log(digitize(348597));
+
+// function findLongest(str) {
+//     let longest = 0
+//     str = str.split(" ");
+//
+//     for (let i of str) {
+//         i.length > longest ? longest = i.length : true
+//     }
+//     return longest
+// }
+// console.log(findLongest('The quick white fox jumped around the massive dog'));
+
+// const check = (a, x) => a.includes(x);
+// console.log(check([66, 101], 66));
+
+// function sumMix(x){
+//     console.log(x);
+//     return x.reduce((a, b) => +a + +b);
+// }
+// console.log(sumMix([9, 3, '7', '3']));
+
+// function insurance(age, size, numofdays){
+//     const a = [];
+//
+//     age < 25 ? a.push(10) : null;
+//     size === 'economy' ? a.push(0) : size === 'medium' ? a.push(10) : a.push(15);
+//
+//     return numofdays >= 0 ? a.reduce((a, b) => a + b, 50) * numofdays : 0;
+// }
+// console.log(insurance(18, "medium", 7))
+
+// function between(a, b) {
+//     let out = [];
+//     for (let i = a; i <= b; i++) {
+//         out.push(i);
+//     }
+//
+//     return out;
+// }
+// console.log(between(-1, 4));
+
+// function middleMe(N, X, Y){
+//     let out = [];
+//
+//     for (let i = 0; i < N / 2; i++) {
+//         out.push(Y);
+//     }
+//
+//     return N % 2 === 0 ? [...out, X, ...out].join('') : X;
+// }
+// console.log(middleMe(19, 'z', '#'));
