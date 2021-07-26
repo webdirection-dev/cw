@@ -467,3 +467,25 @@
 //     return N % 2 === 0 ? [...out, X, ...out].join('') : X;
 // }
 // console.log(middleMe(19, 'z', '#'));
+
+// const divisibleBy = (numbers, divisor) => numbers.filter(item => item % divisor === 0);
+// console.log(divisibleBy([0, 1,2,3,4,5,6], 2));
+
+// function giveChange(amount) {
+//
+//     const action = denomination => {
+//         let count = (amount / denomination).toString().split(/\./)[0];
+//         amount = amount - (denomination * count);
+//         return Math.floor(count);
+//     }
+//
+//     return [
+//         action(100),
+//         action(50),
+//         action(20),
+//         action(10),
+//         action(5),
+//         action(1)
+//     ]   .reverse();
+// }
+// console.log(giveChange(217));
