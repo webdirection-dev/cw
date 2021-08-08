@@ -489,3 +489,65 @@
 //     ]   .reverse();
 // }
 // console.log(giveChange(217));
+
+// const min = list => {
+//     console.log(...list);
+//     list.sort(((a, b) => a - b))
+//     return +list.splice(0, 1);
+// };
+// const max = list => {
+//     list.sort(((a, b) => b - a))
+//     return +list.splice(0, 1);
+// };
+// console.log(min([-52, 56, 30, 29, -54, 0, -110]), max([4,6,2,1,9,63,-134,566]));
+
+// function countPositivesSumNegatives(input) {
+//     if (input === null || input.length === 0) return [];
+//     const out = [0, 0];
+//
+//     input.forEach(item => {
+//         item > 0 ? out[0] += 1 : out[1] += item;
+//     });
+//
+//     return out;
+// }
+// console.log(countPositivesSumNegatives([]))
+
+// const noSpace = x => x.replace(/\s/g, '');
+// console.log(noSpace('8 j 8   mBliB8g  imjB8B8'))
+
+// function nbYear(p0, percent, aug, p) {
+//     let out = 1;
+//
+//     for (
+//         let i = p0 + (p0 * (percent/100)) + aug;
+//         i < p;
+//         i = i + (i * (percent/100)) + aug
+//     ) out++;
+//
+//     return out;
+// }
+// console.log(nbYear(1500000, 0.25, -1000, 2000000,));
+
+// function well(x){
+//     const out = x.filter(item => item==='good');
+//     return out.length > 2 ? 'I smell a series!' : out.length > 0 ? 'Publish!' : 'Fail!';
+// }
+// console.log(well(['good', 'bad', 'bad', 'bad', 'bad']));
+
+// function swapVowelCase(str) {
+//     let lower = ['a', 'e', 'o', 'u', 'i'],
+//         upper = ['A', 'E', 'O', 'U', 'I'];
+//
+//     return str.split('').map(item => {
+//         if (change(item, upper)) return item.toLowerCase();
+//         else if (change(item, lower)) return item.toUpperCase();
+//         else return item;
+//     }).join('');
+// }
+// function change (letters, check) {
+//     for (let i of check) {
+//         if (i === letters) return true;
+//     }
+// }
+// console.log(swapVowelCase('EeeC Is AlIvE!'))

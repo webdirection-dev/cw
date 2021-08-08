@@ -22,6 +22,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="NEW_TOOLWINDOW_STRIPE_DEFAULTS" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -101,6 +102,9 @@
       <workItem from="1626548895141" duration="5697000" />
       <workItem from="1626898933494" duration="3009000" />
       <workItem from="1627239290485" duration="6920000" />
+      <workItem from="1627586097295" duration="3908000" />
+      <workItem from="1628022961300" duration="4539000" />
+      <workItem from="1628365849899" duration="9240000" />
     </task>
     <servers />
   </component>
