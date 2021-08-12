@@ -551,3 +551,11 @@
 //     }
 // }
 // console.log(swapVowelCase('EeeC Is AlIvE!'))
+
+// const TempleStrings = (obj, feature) => `${obj} are ${feature}`;
+// console.log(TempleStrings("Animals","Good"));
+
+// const removeDuplicateWords = s => [...new Set(s.split(' '))].join(' ');
+// const removeDuplicateWords2 = s => Array.from(new Set(s.split(' '))).join(' ');
+// console.log(removeDuplicateWords('alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta'));
+// console.log(removeDuplicateWords2('alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta'));
