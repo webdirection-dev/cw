@@ -559,3 +559,15 @@
 // const removeDuplicateWords2 = s => Array.from(new Set(s.split(' '))).join(' ');
 // console.log(removeDuplicateWords('alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta'));
 // console.log(removeDuplicateWords2('alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta'));
+
+// const even_or_odd = n => n%2 === 0? 'Even' : 'Odd';
+// const even_or_odd2 = n => n%2 ? 'Odd' : 'Even';
+// console.log(even_or_odd2(2));
+
+// function squareDigits(num){
+//     return +String(num)
+//         .split('')
+//         .map(i => Math.pow(+i, 2))
+//         .join('')
+// }
+// console.log(squareDigits(3212));
