@@ -571,3 +571,13 @@
 //         .join('')
 // }
 // console.log(squareDigits(3212));
+
+// const greet = name => `Hello, ${name==='Johnny' ? 'my love' : name}!`;
+// console.log(greet('Johnny'));
+
+// // const vaporcode = string => string.toUpperCase().split(' ').join('').split('').join('  ');
+// const vaporcode = string => Array.from(string.replace(/\s/g, "").toUpperCase()).join("  ")
+// console.log(vaporcode('Let\'s go to the movies'));
+
+// const solution = nums => nums ? nums.sort((a, b) => a - b) : [];
+// console.log(solution([1,2,3,10,5]));
