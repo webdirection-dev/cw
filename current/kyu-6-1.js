@@ -581,3 +581,41 @@
 
 // const solution = nums => nums ? nums.sort((a, b) => a - b) : [];
 // console.log(solution([1,2,3,10,5]));
+
+// const ensureQuestion = s => s.endsWith('?') ? s : s+'?';
+// console.log(ensureQuestion(''));
+
+// function loopArr(arr, direction, steps) {
+//     const out = [];
+//
+//     if (direction === 'left') {
+//         for (let i = 0; i < arr.length - steps; i++) {
+//             out.push(arr[i+steps])
+//         }
+//
+//         for (let i = 0; i < steps; i++) {
+//             out.push(arr[i])
+//         }
+//     }
+//
+//     else {
+//         for (let i = arr.length - steps; i < arr.length; i++) {
+//             out.push(arr[i])
+//         }
+//
+//         for (let i = 0; i < arr.length - steps; i++) {
+//             out.push(arr[i])
+//         }
+//     }
+//
+//     return out;
+// }
+//
+// console.log(loopArr([
+//     76, 715, 899, 399, 791, 839, 130,
+//     785,  54, 178, 244, 521, 680, 757,
+//     295, 110, 717, 766, 757, 221, 650,
+//     558, 301,  34, 994, 534, 524, 522,
+//     616, 129, 570, 201, 152, 132, 514,
+//     377, 459
+// ], 'left', 9));
