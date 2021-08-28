@@ -619,3 +619,24 @@
 //     616, 129, 570, 201, 152, 132, 514,
 //     377, 459
 // ], 'left', 9));
+
+// function remove(s){
+//      s = s.split(' ');
+//      return s.map((item, index) => {
+//          if (index === s.length-1) {
+//              if (item.search(/^!/) === 0 && item.search(/!$/) !== -1) {
+//                  for (let i = 0; i < item.length; i++) {
+//                      item = item.replace(/!$/, '')
+//                  }
+//                  return item
+//              }
+//              else if (item.search(/^!/) === -1) return item.replace(/!/g, '');
+//              else return item;
+//          }
+//          return item;
+//      }).join(' ');
+// }
+// console.log(remove("Hi! Hi!"));
+
+// const wordsToSentence = words => words.join(' ');
+// console.log(wordsToSentence(["hello", "world"]))
