@@ -640,3 +640,57 @@
 
 // const wordsToSentence = words => words.join(' ');
 // console.log(wordsToSentence(["hello", "world"]))
+
+// const divide = weight => weight === 2 ? false : !(weight % 2);
+// console.log(divide(2));
+
+// function generatePairs(m, n) {
+//     const arr = [];
+//     let current = m;
+//     let a = 0,
+//         b = 0;
+//
+//     if (m === 0 && n === 0) return [[0, 0]];
+//
+//     if (m < 0 && n < 0) {
+//         for (let index = 0; index >= m+n; index--) {
+//             if (current <= n) {
+//                 for (let i = 0; i < n-current+1; i++) {
+//                     a = current;
+//                     b = current+i;
+//                     arr.push([a, b])
+//                 }
+//                 current++;
+//             }
+//         }
+//     }
+//
+//     if (m < 0 && n >= 0) {
+//         for (let index = 0; index <= -1*m+n; index++) {
+//             if (current <= n) {
+//                 for (let i = 0; i < n-current+1; i++) {
+//                     a = current;
+//                     b = current+i;
+//                     arr.push([a, b])
+//                 }
+//                 current++;
+//             }
+//         }
+//     }
+//
+//     else {
+//         for (let index = 0; index <= m+n; index++) {
+//             if (current <= n) {
+//                 for (let i = 0; i < n-current+1; i++) {
+//                     a = current;
+//                     b = current+i;
+//                     arr.push([a, b])
+//                 }
+//                 current++;
+//             }
+//         }
+//     }
+//
+//     return arr;
+// }
+// console.log(generatePairs(-20, 20));
