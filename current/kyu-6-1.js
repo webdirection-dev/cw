@@ -694,3 +694,15 @@
 //     return arr;
 // }
 // console.log(generatePairs(-20, 20));
+
+// const nameShuffler = str => str.split(' ').reverse().join(' ');
+// console.log(nameShuffler('john McClane'))
+
+// function highAndLow(numbers){
+//     numbers = numbers
+//         .split(' ')
+//         .sort((a, b) => b - a);
+//
+//     return `${numbers[0]} ${numbers[numbers.length-1]}`
+// }
+// console.log(highAndLow('1 9 3 4 -5'));
