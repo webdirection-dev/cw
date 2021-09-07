@@ -706,3 +706,25 @@
 //     return `${numbers[0]} ${numbers[numbers.length-1]}`
 // }
 // console.log(highAndLow('1 9 3 4 -5'));
+
+// function multipleOfIndex(array) {
+//     const arr = [];
+//      array.forEach((item, index) => {
+//         if (!(item % index) && index > 0) arr.push(item);
+//     });
+//
+//     return arr;
+// }
+// console.log(multipleOfIndex([68, -1, 1, -7, 10, 10]))
+
+// Новый массив без undefined
+// function multipleOfIndex(array) {
+//     return array.filter((item, index) => item % index === 0)
+// }
+// console.log(multipleOfIndex([68, -1, 1, -7, 10, 10]))
+
+// const calcType = (a, b, res) =>
+//     a + b === res ? 'addition' :
+//     a - b === res ? 'subtraction' :
+//     a * b === res ? 'multiplication' : 'division';
+// console.log(calcType(20, 5, 4))
