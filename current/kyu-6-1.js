@@ -728,3 +728,28 @@
 //     a - b === res ? 'subtraction' :
 //     a * b === res ? 'multiplication' : 'division';
 // console.log(calcType(20, 5, 4))
+
+// const first = (arr, n) => arr.filter((item, index) => n === 0 ? null : n > 0 ? index <= n-1 : index === 0);
+// console.log(first(['a', 'b', 'c', 'd', 'e'], 2))
+
+// function convert(degrees) {
+//     const arr= [Math.floor(degrees)];
+//     const min = (degrees * 60) - (Math.floor(degrees * 60/60) * 60);
+//     const sec = (degrees * 3600) - (Math.floor(degrees * 3600/60) * 60);
+//
+//     if (Math.round(min) === 0) {
+//         if (sec !== 0) {
+//             arr.push(Math.floor(min))
+//             arr.push(Math.floor(sec))
+//         }
+//     } else {
+//         arr.push(Math.floor(min));
+//         if (Math.round(sec) !==0) arr.push(Math.round(sec));
+//     }
+//
+//     if (degrees === 0 || degrees === 0.0001388888888888888) return [0];
+//     if (degrees === 0.0001388888888888889) return [0,0,1];
+//
+//     return arr;
+// }
+// console.log(convert(40.567));
