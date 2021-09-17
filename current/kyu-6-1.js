@@ -753,3 +753,28 @@
 //     return arr;
 // }
 // console.log(convert(40.567));
+
+// const move = (position, roll) => roll * 2 + position;
+// console.log(move(3, 6))
+
+// function xMasTree(n){
+//     const arr = [];
+//     let current = '#';
+//
+//     for (let i = n-1; i >= 0; i--) {
+//         const load = () => {
+//             let out = '';
+//             for (let z = 0; z < (n*2 - current.length-1)/2; z++) out = out + '_';
+//             return out;
+//         }
+//
+//         arr.push(load() + current + load())
+//         current += '##';
+//     }
+//
+//     arr.push(arr[0])
+//     arr.push(arr[0])
+//
+//     return arr;
+// }
+// console.log(xMasTree(5))
