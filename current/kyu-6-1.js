@@ -778,3 +778,21 @@
 //     return arr;
 // }
 // console.log(xMasTree(5))
+
+// const simpleMultiplication = (number) => number * (number % 2 === 0 ? 8 : 9);
+// console.log(simpleMultiplication(3));
+
+// function evenOrOdd(str) {
+//     let even = null,
+//         odd = null;
+//
+//     str.split('')
+//         .forEach(i => i % 2 === 0 ? even += +i : odd += +i);
+//
+//     return (
+//         even > odd ? 'Even is greater than Odd' :
+//         even < odd ? 'Odd is greater than Even' :
+//         'Even and Odd are the same'
+//     );
+// }
+// console.log(evenOrOdd('1'));
