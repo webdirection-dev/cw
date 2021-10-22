@@ -796,3 +796,9 @@
 //     );
 // }
 // console.log(evenOrOdd('1'));
+
+// const stringToArray = string => string.split('');
+// console.log(stringToArray('Robin Singh'))
+
+// const number = busStops => busStops.reduce((a, [b, c]) => a + (b-c), 0);
+// console.log(number([[10,0],[3,5],[5,8]]))
