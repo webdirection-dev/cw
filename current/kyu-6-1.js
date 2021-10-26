@@ -802,3 +802,6 @@
 
 // const number = busStops => busStops.reduce((a, [b, c]) => a + (b-c), 0);
 // console.log(number([[10,0],[3,5],[5,8]]))
+
+// const findShort = s => Math.min(...s.split(' ').map(i => i.length));
+// console.log(findShort('bitcoin take over the world maybe who knows perhaps'));
