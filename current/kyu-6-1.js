@@ -805,3 +805,20 @@
 
 // const findShort = s => Math.min(...s.split(' ').map(i => i.length));
 // console.log(findShort('bitcoin take over the world maybe who knows perhaps'));
+
+// const makeString = s => s.split(' ').map(i => i[0]).join('');
+// console.log(makeString('sees eyes xray yoat'))
+
+function sc(screws){
+    let count = +screws.length * 2 -1;
+
+    for (let i = 0; i < screws.length; i++) {
+        if (screws[i] !== screws[i +1] && screws[i +1] !== undefined) {
+            count += 5;
+        }
+    }
+
+    return count;
+}
+
+console.log(sc('-+-+-----------'))
