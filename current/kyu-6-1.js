@@ -809,16 +809,28 @@
 // const makeString = s => s.split(' ').map(i => i[0]).join('');
 // console.log(makeString('sees eyes xray yoat'))
 
-function sc(screws){
-    let count = +screws.length * 2 -1;
+// function sc(screws){
+//     let count = +screws.length * 2 -1;
+//
+//     for (let i = 0; i < screws.length; i++) {
+//         if (screws[i] !== screws[i +1] && screws[i +1] !== undefined) {
+//             count += 5;
+//         }
+//     }
+//
+//     return count;
+// }
+// console.log(sc('-+-+-----------'))
 
-    for (let i = 0; i < screws.length; i++) {
-        if (screws[i] !== screws[i +1] && screws[i +1] !== undefined) {
-            count += 5;
-        }
-    }
+// function square(number){
+//     let out = 1;
+//     for (let i = 1; i < number; i++) {
+//         out = out + out;
+//     }
+//
+//     return out
+// }
+// console.log(square(3));
 
-    return count;
-}
-
-console.log(sc('-+-+-----------'))
+// const isSquare = n => Math.sqrt(n) % 1 === 0;
+// console.log(isSquare(3))

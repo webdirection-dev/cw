@@ -37,11 +37,14 @@
       <recent name="$PROJECT_DIR$/matrix" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.kyu-6-1.js">
+  <component name="RunManager" selected="Node.js.kyu-6-2.js">
     <configuration name="home-work-1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/matrix/home-work-1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="kyu-6-1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/current/kyu-6-1.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="kyu-6-2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/current/kyu-6-2.js" working-dir="$PROJECT_DIR$/current">
       <method v="2" />
     </configuration>
     <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/sort/script.js" working-dir="$PROJECT_DIR$/sort">
@@ -55,6 +58,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.kyu-6-2.js" />
         <item itemvalue="Node.js.kyu-6-1.js" />
         <item itemvalue="Node.js.script.js" />
         <item itemvalue="Node.js.home-work-1.js" />
@@ -122,6 +126,7 @@
       <workItem from="1634938753787" duration="2138000" />
       <workItem from="1635286318784" duration="1334000" />
       <workItem from="1635979803228" duration="3199000" />
+      <workItem from="1636328088906" duration="3165000" />
     </task>
     <servers />
   </component>
