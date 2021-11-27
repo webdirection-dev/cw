@@ -26,3 +26,14 @@
 //     return max > min ? 'sum' : min > max ? 'product' : 'same';
 // }
 // console.log(sumOrProduct([10, 41, 8, 16, 20, 36, 9, 13, 20], 3))
+
+// function maxMultiple(divisor, bound){
+//     for (let i = 0; i < divisor; i++) {
+//         if (bound % divisor === 0) return bound
+//         bound -= 1
+//     }
+// }
+// console.log(maxMultiple(37, 200))
+
+// const isPowerOfTwo = n => Number.isInteger(Math.log2(n))
+// console.log(isPowerOfTwo(1))
