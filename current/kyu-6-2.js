@@ -37,3 +37,17 @@
 
 // const isPowerOfTwo = n => Number.isInteger(Math.log2(n))
 // console.log(isPowerOfTwo(1))
+
+// const bump = x => x.match(/n/g) === null || x.match(/n/g).length < 16 ? 'Woohoo!' : 'Car Dead'
+// console.log(bump('_'))
+
+// function reverseNumber(n) {
+//     n = String(n)
+//     if (n[0] === '-') {
+//         n = n.slice(1)
+//         return Number(n.split('').reverse().join('')) * -1
+//     }
+//
+//     return Number(n.split('').reverse().join(''))
+// }
+// console.log(reverseNumber(-1000))
