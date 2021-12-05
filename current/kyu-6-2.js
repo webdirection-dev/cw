@@ -51,3 +51,30 @@
 //     return Number(n.split('').reverse().join(''))
 // }
 // console.log(reverseNumber(-1000))
+
+// function getNames(data){
+//     return data.map(function(item){return item.name});
+// }
+// console.log(getNames([
+//     {name: 'Joe', age: 20},
+//     {name: 'Bill', age: 30},
+//     {name: 'Kate', age: 23}
+// ]))
+
+// function isCoprime(x, y) {
+//     for (let i = 2; i <= Math.min(x, y); i++) if (x % i === 0 && y % i === 0) return false
+//     return true
+// }
+// function isCoprime(x, y) {
+//     let a = [], b = []
+//
+//     for (let i = 2; i <= Math.min(x, y); i++) {
+//         if (!x % i) a.push(i)
+//         if (!y % i) b.push(i)
+//     }
+//
+//     for (let i of a) if (b.includes(i)) return false
+//
+//     return true
+// }
+// console.log(isCoprime(20, 27))
