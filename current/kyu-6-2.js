@@ -78,3 +78,30 @@
 //     return true
 // }
 // console.log(isCoprime(20, 27))
+
+// function cost (mins) {
+//     if (mins + 5 < 60) {
+//         return 30
+//     } else {
+//         if (mins % 60 >= 0 && mins % 60 <= 5) {
+//             return  Math.floor((mins / 60 - 1)) * 20 + 30
+//         } else if ((mins % 60 >= 30 && mins % 60 <= 35)) {
+//             return  Math.floor((mins / 60 - 1)) * 20 + 30 + 10
+//         } else if (mins % 60 > 35) {
+//             return  Math.floor((mins / 60 - 1)) * 20 + 30 + 20
+//         } else {
+//             return  Math.floor((mins / 60 - 1)) * 20 + 30 + 10
+//         }
+//     }
+// }
+// console.log(cost(156))
+
+// function adjacentElementsProduct(array) {
+//     const out = []
+//     for (let i = 0; i < array.length -1; i++) out.push(array[i] * array[i+1])
+//     return Math.max(...out)
+// }
+// console.log(adjacentElementsProduct([1, 2, 3]))
+
+// const flyBy = (lamps, drone) => lamps.split('').map((i, x) => x < drone.length ? 'o' : i).join('')
+// console.log(flyBy('xxxxxx', '====T'))
