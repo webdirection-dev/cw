@@ -105,3 +105,15 @@
 
 // const flyBy = (lamps, drone) => lamps.split('').map((i, x) => x < drone.length ? 'o' : i).join('')
 // console.log(flyBy('xxxxxx', '====T'))
+
+// const addExtra = listOfNumbers => [...listOfNumbers, []]
+// console.log(addExtra('n'))
+
+function toTime(seconds) {
+    const h = Math.trunc(seconds / 60 / 60)
+    const m = Math.trunc((seconds / 60) - (h * 60))
+
+    return `${h} hour(s) and ${m} minute(s)`
+}
+
+console.log(toTime(3500))
